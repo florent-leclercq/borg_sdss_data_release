@@ -22,5 +22,5 @@ mean=data['mean']
 stdv=data['stdv']
 
 #Now make a example plot
-imshow(mean[:,:,128],origin='lower', extent=[ymin,ymax,zmin,zmax])
+imshow(mean[:,:,128], origin='lower', extent=[ymin,ymax,zmin,zmax])
 plt.show()
