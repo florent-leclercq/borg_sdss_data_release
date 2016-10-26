@@ -1,18 +1,20 @@
 ==============================================
 **BORG SDSS data products**
 ==============================================
+**borg_sdss_density**
 
-*Authors*: Jens Jasche, Florent Leclercq, Benjamin Wandelt
-*Last update*: 26-10-2016
+* *Authors*: Jens Jasche, Florent Leclercq, Benjamin Wandelt
+* *Last update*: 26-10-2016
 
 ----------------------
 **File Contents**
 ----------------------
 
-Including this file you should have received a copy of in total three files:
+Including this file you should have received a copy of in total four files:
 * README.md
 * borg_sdss_density.npz
-* example.py
+* borg_sdss_density.py
+* borg_sdss_density.ipynb
 
 README.md	:
 	This file contains the information you are currently reading.
@@ -29,10 +31,12 @@ borg_sdss_density.npz	:
 	methodologies please consult the manuscript Jasche et al. (2015), of which the reference
 	is provided below.
 
-example.py	:
+borg_sdss_density.py	:
 	This file is an example script to be executed with the Python programming language.
 	The script exemplifies loading and plotting the data contained in borg_sdss_density.npz.
 
+borg_sdss_density.ipynb	:
+	This file is an example IPython notebook to load and plot the data.
 
 ----------------------
 **Usage**
