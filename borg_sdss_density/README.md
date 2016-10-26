@@ -11,7 +11,7 @@
 
 This package consists of four files:
 * README.md
-* borg_sdss_density.npz, archived in a .tar.gz archive downloadable [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_density.tar.gz)
+* borg_sdss_density.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_density.tar.gz)
 * [borg_sdss_density.py](borg_sdss_density.py)
 * [borg_sdss_density.ipynb](borg_sdss_density.ipynb)
 
@@ -86,7 +86,7 @@ A showcase of loading and plotting this data is provided by the files [borg_sdss
 If you are using this data in your publications please cite the following publications:
 
 > Jasche, J. and Wandelt, B. D. (2013)<br />
-> *Bayesian physical reconstruction of initial conditions from large-scale structure surveys*)<br />
+> *Bayesian physical reconstruction of initial conditions from large-scale structure surveys*<br />
 > [Monthly Notices of the Royal Astronomical Society 432, 894-913 (2013)](http://dx.doi.org/10.1093/mnras/stt449)<br />
 > [arXiv:1203.3639 [astro-ph.CO]](https://arxiv.org/abs/1203.3639)
 
