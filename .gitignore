@@ -2,3 +2,4 @@
 */*.npz
 */*.tar.gz
 */.ipynb_checkpoints/
+borg_sdss_voids/*.out
