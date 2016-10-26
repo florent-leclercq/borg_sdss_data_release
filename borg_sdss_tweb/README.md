@@ -10,7 +10,7 @@
 ----------------------
 
 This package consists of seven files:
-* README.rst
+* README.md
 * borg_sdss_tweb.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_tweb.tar.gz)
 * [borg_sdss_tweb.py](borg_sdss_tweb.py)
 * [borg_sdss_tweb.ipynb](borg_sdss_tweb.ipynb)
