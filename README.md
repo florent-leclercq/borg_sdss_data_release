@@ -5,6 +5,7 @@
 * *Authors*: Florent Leclercq, Jens Jasche, Benjamin Wandelt
 * *Additional contributions from*: Nico Hamaus, Guilhem Lavaux, Will Percival, P.M Sutter
 * *Last update*: 27-10-2016
+
 This is the repository for the public releases of data products that follow a chrono-cosmographic analysis of the three-dimensional large-scale structure of the nearby Universe, as traced by [SDSS main sample galaxies](http://classic.sdss.org/dr7/).
 
 For the large files that are not included in this repository, see [http://icg.port.ac.uk/~leclercq/data.php](http://icg.port.ac.uk/~leclercq/data.php).
