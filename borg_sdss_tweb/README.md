@@ -3,7 +3,7 @@
 ==============================================
 
 * *Authors*: Florent Leclercq, Jens Jasche, Benjamin Wandelt
-* *Last update*: 26-10-2016
+* *Last update*: 27-10-2016
 
 ----------------------
 **File Contents**
