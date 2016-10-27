@@ -49,72 +49,68 @@ The files borg_sdss_js_DE.npz and galaxy_catalog.dat are archived in a .tar.gz f
 **Credits**
 ----------------------
 
-If you are using this material in your publications please cite the
-following publication:
+If you are using this material in your publications please cite the following publication:
 
-	Leclercq, F. and Lavaux, G. and Jasche, J. and Wandelt, B. (2016b)
-	Comparing cosmic web classifiers using information theory
-	arXiv:1606:XXXXX [astro-ph.CO]
+> Leclercq, F. and Lavaux, G. and Jasche, J. and Wandelt, B. (2016b)<br />
+> *Comparing cosmic web classifiers using information theory*<br />
+> [Journal of Cosmology and Astroparticle Physics 08, 027 (2016)](http://dx.doi.org/10.1088/1475-7516/2016/08/027)<br />
+> [arXiv:1606.06758 [astro-ph.CO]](https://arxiv.org/abs/1606.06758)
 
 For a publication using the 'T-web' maps, please cite
 
-	Leclercq, F. and Jasche, J. and Wandelt, B. (2015a)
-	Bayesian analysis of the dynamic cosmic web in the SDSS galaxy survey
-	Journal of Cosmology and Astroparticle Physics 06, 015 (2015)
-	arXiv:1502.02690 [astro-ph.CO]
+> Leclercq, F. and Jasche, J. and Wandelt, B. (2015a)<br />
+> *Bayesian analysis of the dynamic cosmic web in the SDSS galaxy survey*<br />
+> [Journal of Cosmology and Astroparticle Physics 06, 015 (2015)](http://dx.doi.org/10.1088/1475-7516/2015/06/015)<br />
+> [arXiv:1502.02690 [astro-ph.CO]](https://arxiv.org/abs/1502.02690)
 
 as well as the 'T-web' paper:
 
-	Hahn, O. and Porciani, C. and Carollo, C. M. and Dekel, A. (2007)
-	Properties of dark matter haloes in clusters, filaments, sheets and voids
-	Monthly Notices of the Royal Astronomical Society 375, 489-499 (2007)
-	arXiv:astro-ph/0610280
+> Hahn, O. and Porciani, C. and Carollo, C. M. and Dekel, A. (2007)<br />
+> *Properties of dark matter haloes in clusters, filaments, sheets and voids*<br />
+> [Monthly Notices of the Royal Astronomical Society 375, 489-499 (2007)](http://dx.doi.org/10.1111/j.1365-2966.2006.11318.x)<br />
+> [arXiv:astro-ph/0610280](https://arxiv.org/abs/astro-ph/0610280)
 
 For a publication using the 'DIVA' or 'ORIGAMI' maps, please cite
 
-	Leclercq, F. and Jasche, J. and Lavaux, G. and Wandelt, B. (2016a)
-	Inference and classifications of the Lagrangian dark matter sheet in the SDSS
-	arXiv:1601.00093 [astro-ph.CO]
+> Leclercq, F. and Jasche, J. and Lavaux, G. and Wandelt, B. (2016a)<br />
+> *Inference and classifications of the Lagrangian dark matter sheet in the SDSS*<br />
+> [arXiv:1601.00093 [astro-ph.CO]](https://arxiv.org/abs/1601.00093)
 
 as well as the 'DIVA' and/or 'ORIGAMI' papers:
 
-	Lavaux, G. and Wandelt, B. D. (2010)
-	Precision cosmology with voids: definition, methods, dynamics
-	Monthly Notices of the Royal Astronomical Society 403, 1392-1408 (2010)
-	arXiv:0906.4101 [astro-ph.CO]
+> Lavaux, G. and Wandelt, B. D. (2010)
+> *Precision cosmology with voids: definition, methods, dynamics*<br />
+> [Monthly Notices of the Royal Astronomical Society 403, 1392-1408 (2010)](http://dx.doi.org/10.1111/j.1365-2966.2010.16197.x)<br />
+> [arXiv:0906.4101 [astro-ph.CO]](https://arxiv.org/abs/0906.4101)
 
-	Falck, B. L. and Neyrinck, M. C. and Szalay, A. S. (2012)
-	ORIGAMI: Delineating Halos Using Phase-space Folds
-	The Astrophysical Journal 754, 126 (2012)
-	arXiv:1201.2353 [astro-ph.CO]
+> Falck, B. L. and Neyrinck, M. C. and Szalay, A. S. (2012)<br />
+> *ORIGAMI: Delineating Halos Using Phase-space Folds*<br />
+> [The Astrophysical Journal 754, 126 (2012)](http://dx.doi.org/10.1088/0004-637X/754/2/126)<br />
+> [arXiv:1201.2353 [astro-ph.CO]](https://arxiv.org/abs/1201.2353)
 
-If you use the decision theory formalism (in the file decision_tweb.py of the borg_sdss_tweb package, for example),
-please cite the following publication:
+If you use the decision theory formalism (in the file decision_tweb.py of the borg_sdss_tweb package, for example), please cite the following publication:
 
-	Leclercq, F. and Jasche, J. and Wandelt, B. (2015b)
-	Cosmic web-type classification using decision theory
-	Astronomy & Astrophysics Letters, 576, L17 (2015)
-	arXiv:1503.00730 [astro-ph.CO]
+> Leclercq, F. and Jasche, J. and Wandelt, B. (2015b)<br />
+> *Cosmic web-type classification using decision theory*<br />
+> [Astronomy & Astrophysics Letters, 576, L17 (2015)](http://dx.doi.org/10.1051/0004-6361/201526006)<br />
+> [arXiv:1503.00730 [astro-ph.CO]](https://arxiv.org/abs/1503.00730)
 
-As cosmic web analysis is a derived product of the BORG SDSS analysis, we also kindly
-ask you to cite the following publications:
+As cosmic web analysis is a derived product of the BORG SDSS analysis, we also kindly ask you to cite the following publications:
 
-	Jasche, J. and Wandelt, B. D. (2013)
-	Bayesian physical reconstruction of initial conditions from large-scale structure surveys
-	Monthly Notices of the Royal Astronomical Society 432, 894-913 (2013)
-	arXiv:1203.3639 [astro-ph.CO]
+> Jasche, J. and Wandelt, B. D. (2013)<br />
+> *Bayesian physical reconstruction of initial conditions from large-scale structure surveys*<br />
+> [Monthly Notices of the Royal Astronomical Society 432, 894-913 (2013)](http://dx.doi.org/10.1093/mnras/stt449)<br />
+> [arXiv:1203.3639 [astro-ph.CO]](https://arxiv.org/abs/1203.3639)
 
 and:
 
-	Jasche, J. and Leclercq, F. and Wandelt, B. D. (2015)
-	Past and present cosmic structure in the SDSS DR7 main sample
-	Journal of Cosmology and Astroparticle Physics 01, 036 (2015)
-	arXiv:1409.6308 [astro-ph.CO]
+> Jasche, J. and Leclercq, F. and Wandelt, B. D. (2015)<br />
+> *Past and present cosmic structure in the SDSS DR7 main sample*<br />
+> [Journal of Cosmology and Astroparticle Physics 01, 036 (2015)](http://dx.doi.org/10.1088/1475-7516/2013/11/048)<br />
+> [arXiv:1409.6308 [astro-ph.CO]](https://arxiv.org/abs/1409.6308)
 
 We suggest, for example, the following sentences:
-'This work uses material from the cosmic web classifiers comparison project performed by Leclercq et al. (2016b) and
-the maps obtained by Leclercq et al. (2015a) & Leclercq et al. (2016a). These maps are based on the
-T-web (Hahn et al. 2007), DIVA (Lavaux & Wandelt 2010) and ORIGAMI (Falck et al. 2012) definitions. They
-build upon the analysis of the SDSS (Jasche et al. 2015) by the BORG algorithm (Jasche & Wandelt 2013).'
 
-'This work uses the formalism introduced by Leclercq et al. (2015b) for cosmic web classification using decision theory.'
+> 'This work uses material from the cosmic web classifiers comparison project performed by Leclercq et al. (2016b) and the maps obtained by Leclercq et al. (2015a) & Leclercq et al. (2016a). These maps are based on the T-web (Hahn et al. 2007), DIVA (Lavaux & Wandelt 2010) and ORIGAMI (Falck et al. 2012) definitions. They build upon the analysis of the SDSS (Jasche et al. 2015) by the BORG algorithm (Jasche & Wandelt 2013).'
+
+> 'This work uses the formalism introduced by Leclercq et al. (2015b) for cosmic web classification using decision theory.'
