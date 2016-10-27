@@ -1,5 +1,7 @@
 import numpy as np
 from pylab import *
+import warnings
+warnings.filterwarnings("ignore")
 
 # This script requires the npz files provided in the "borg_sdss_diva" and "borg_sdss_origami" packages of the BORG SDSS data release
 # A similar script can be used with the T-web maps provided in the "borg_sdss_tweb" package
@@ -28,6 +30,7 @@ S2=origami['sheets']
 F2=origami['filaments']
 C2=origami['clusters']
 
+# Jensen-Shannon divergence
 Vm=1/2.*(V1+V2)
 Sm=1/2.*(S1+S2)
 Fm=1/2.*(F1+F2)
@@ -78,5 +81,5 @@ del V2logV2, S2logS2, F2logF2, C2logC2, V2logVm, S2logSm, F2logFm, C2logCm
 DJS = 1/2.*(DKL1m + DKL2m)
 
 #Now make a example plot
-imshow(DJS[:,:,128],origin='lower', extent=[ymin,ymax,zmin,zmax])
+imshow(DJS[:,:,128], origin='lower', extent=[ymin,ymax,zmin,zmax], cmap="PuRd")
 plt.show()

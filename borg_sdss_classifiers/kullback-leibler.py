@@ -1,5 +1,7 @@
 import numpy as np
 from pylab import *
+import warnings
+warnings.filterwarnings("ignore")
 
 # This script requires the npz files provided in the "borg_sdss_tweb", "borg_sdss_diva" and "borg_sdss_origami" packages of the BORG SDSS data release
 tweb = np.load('borg_sdss_tweb.npz')
@@ -56,12 +58,13 @@ tweb_SlogS[np.isnan(tweb_SlogS)]=0.
 tweb_FlogF[np.isnan(tweb_FlogF)]=0.
 tweb_ClogC[np.isnan(tweb_ClogC)]=0.
 
-tweb_VlogPrior_C = tweb_voids*np.log2(prior_tweb_voids)
+tweb_VlogPrior_V = tweb_voids*np.log2(prior_tweb_voids)
 tweb_SlogPrior_S = tweb_sheets*np.log2(prior_tweb_sheets)
 tweb_FlogPrior_F = tweb_filaments*np.log2(prior_tweb_filaments)
 tweb_ClogPrior_C = tweb_clusters*np.log2(prior_tweb_clusters)
 
-tweb_DKL = tweb_VlogV + tweb_SlogS + tweb_FlogF + tweb_ClogC - tweb_ClogPrior_C - tweb_SlogPrior_S - tweb_FlogPrior_F - tweb_VlogPrior_C
+tweb_DKL = tweb_VlogV + tweb_SlogS + tweb_FlogF + tweb_ClogC - tweb_ClogPrior_C - tweb_SlogPrior_S - tweb_FlogPrior_F - tweb_VlogPrior_V
+del tweb_VlogV, tweb_SlogS, tweb_FlogF, tweb_ClogC, tweb_ClogPrior_C, tweb_SlogPrior_S, tweb_FlogPrior_F, tweb_VlogPrior_V
 
 diva_VlogV = diva_voids*np.log2(diva_voids)
 diva_SlogS = diva_sheets*np.log2(diva_sheets)
@@ -72,12 +75,13 @@ diva_SlogS[np.isnan(diva_SlogS)]=0.
 diva_FlogF[np.isnan(diva_FlogF)]=0.
 diva_ClogC[np.isnan(diva_ClogC)]=0.
 
-diva_VlogPrior_C = diva_voids*np.log2(prior_diva_voids)
+diva_VlogPrior_V = diva_voids*np.log2(prior_diva_voids)
 diva_SlogPrior_S = diva_sheets*np.log2(prior_diva_sheets)
 diva_FlogPrior_F = diva_filaments*np.log2(prior_diva_filaments)
 diva_ClogPrior_C = diva_clusters*np.log2(prior_diva_clusters)
 
-diva_DKL = diva_VlogV + diva_SlogS + diva_FlogF + diva_ClogC - diva_ClogPrior_C - diva_SlogPrior_S - diva_FlogPrior_F - diva_VlogPrior_C
+diva_DKL = diva_VlogV + diva_SlogS + diva_FlogF + diva_ClogC - diva_ClogPrior_C - diva_SlogPrior_S - diva_FlogPrior_F - diva_VlogPrior_V
+del diva_VlogV, diva_SlogS, diva_FlogF, diva_ClogC, diva_ClogPrior_C, diva_SlogPrior_S, diva_FlogPrior_F, diva_VlogPrior_V
 
 origami_VlogV = origami_voids*np.log2(origami_voids)
 origami_SlogS = origami_sheets*np.log2(origami_sheets)
@@ -88,13 +92,14 @@ origami_SlogS[np.isnan(origami_SlogS)]=0.
 origami_FlogF[np.isnan(origami_FlogF)]=0.
 origami_ClogC[np.isnan(origami_ClogC)]=0.
 
-origami_VlogPrior_C = origami_voids*np.log2(prior_origami_voids)
+origami_VlogPrior_V = origami_voids*np.log2(prior_origami_voids)
 origami_SlogPrior_S = origami_sheets*np.log2(prior_origami_sheets)
 origami_FlogPrior_F = origami_filaments*np.log2(prior_origami_filaments)
 origami_ClogPrior_C = origami_clusters*np.log2(prior_origami_clusters)
 
-origami_DKL = origami_VlogV + origami_SlogS + origami_FlogF + origami_ClogC - origami_ClogPrior_C - origami_SlogPrior_S - origami_FlogPrior_F - origami_VlogPrior_C
+origami_DKL = origami_VlogV + origami_SlogS + origami_FlogF + origami_ClogC - origami_ClogPrior_C - origami_SlogPrior_S - origami_FlogPrior_F - origami_VlogPrior_V
+del origami_VlogV, origami_SlogS, origami_FlogF, origami_ClogC, origami_ClogPrior_C, origami_SlogPrior_S, origami_FlogPrior_F, origami_VlogPrior_V
 
 #Now make a example plot
-imshow(origami_DKL[:,:,128],origin='lower', extent=[ymin,ymax,zmin,zmax])
+imshow(origami_DKL[:,:,128], origin='lower', extent=[ymin,ymax,zmin,zmax], cmap="gist_earth_r")
 plt.show()

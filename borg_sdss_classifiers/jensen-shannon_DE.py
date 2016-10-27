@@ -21,5 +21,5 @@ diva_js_DE=js_DE['diva']
 origami_js_DE=js_DE['origami']
 
 #Now make a example plot
-imshow(diva_js_DE[:,:,128],origin='lower', extent=[ymin,ymax,zmin,zmax])
+imshow(diva_js_DE[:,:,128], origin='lower', extent=[ymin,ymax,zmin,zmax], cmap="magma_r")
 plt.show()

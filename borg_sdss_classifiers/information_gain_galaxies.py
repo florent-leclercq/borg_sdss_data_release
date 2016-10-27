@@ -1,5 +1,6 @@
 import numpy as np
 
+#Load galaxy catalog
 ra,dec,redshift,u,g,r,i,z,ugModelColor,grModelColor,riModelColor,izModelColor,Mr,is_red,tweb,diva,origami = np.loadtxt("galaxy_catalog.dat", comments="#", unpack=True)
 is_red=is_red.astype(int)
 tweb=tweb.astype(int)
