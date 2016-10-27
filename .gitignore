@@ -3,3 +3,4 @@
 */*.tar.gz
 */.ipynb_checkpoints/
 borg_sdss_voids/*.out
+borg_sdss_classifiers/galaxy_catalog.dat
