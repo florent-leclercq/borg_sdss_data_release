@@ -1,0 +1,116 @@
+==============================================
+BORG SDSS data products
+==============================================
+
+:Authors: Florent Leclercq, Jens Jasche, Guilhem Lavaux, Benjamin Wandelt
+:Last update: 16-06-2016
+
+----------------------
+File Contents
+----------------------
+
+Including this file you should have received a copy of in total three files:
+
+		README.rst
+
+		borg_sdss_origami.npz
+
+		example.py
+
+
+README.rst		:This file contains the information you are currently reading.
+
+borg_sdss_origami.npz	:This file contains the maps obtained by Leclercq et al. (2016a), who performed
+			 a Bayesian analysis of the cosmic web in the SDSS volume. The results are four
+			 probabilistic maps of the voids, sheets, filaments, and clusters.
+			 Structures are defined using the ORIGAMI algorithm (Falck et al. 2012)
+			 Data is provided in terms of a standard 3D numpy array and can easily be accessed and
+			 processed with the open source Python programming language. For further details on
+			 the data and employed methods please consult the manuscript Leclercq et al. (2016a),
+			 of which the reference is provided below.
+
+example.py		:This file is an example script to be executed with the Python programming language.
+			 The script exemplifies loading and plotting the data contained in borg_sdss_origami.npz.
+			 This script can be used to reproduce figure 3 (bottom row) in Leclercq et al. (2016a).
+
+----------------------
+Usage
+----------------------
+
+The file borg_sdss_origami.npz contains the probabilistic structure types maps in a standard uncompressed .npz format.
+To load and process the data with the Python programming language execute the following commands:
+
+		import numpy as np
+		origami=np.load('borg_sdss_origami.npz')
+
+To access the 3D structure maps use: 
+
+		voids=origami['voids']
+		sheets=origami['sheets']
+		filaments=origami['filaments']
+		clusters=origami['clusters']
+
+Individual voxels in this 3D volumetric data cube can be accessed as follows:
+
+		voids_ijk=voids[k,j,i],
+
+where i,j and k index voxel positions along the x,y and z axes respectively.
+All indices run from 0 to 255.
+
+The ranges describing the extent of the cubic cartesian volume along
+the x,y and z axes can be accessed as follows:
+
+		xmin=origami['ranges'][0]
+		xmax=origami['ranges'][1]
+
+		ymin=origami['ranges'][2]
+		ymax=origami['ranges'][3]
+
+		zmin=origami['ranges'][4]
+		zmax=origami['ranges'][5]
+
+Units are Mpc/h.
+
+(Note that all the maps that are part of the BORG SDSS data products have consistent consistent
+coordinate systems. The coordinate transform to change from Cartesian to spherical coordinates
+and vice versa is given in appendix B of Jasche et al. 2015)
+
+A showcase of loading and plotting this data is provided by the file example.py,
+a copy of which you should have received along with this file.
+
+----------------------
+Credits
+----------------------
+
+If you are using this data in your publications please cite the
+following publication:
+
+	Leclercq, F. and Jasche, J. and Lavaux, G. and Wandelt, B. (2016a)
+	Inference and classifications of the Lagrangian dark matter sheet in the SDSS
+	arXiv:1601.00093 [astro-ph.CO]
+
+As cosmic web analysis is a derived product of the BORG SDSS analysis, we also kindly
+ask you to cite the following publications:
+
+	Jasche, J. and Wandelt, B. D. (2013)
+	Bayesian physical reconstruction of initial conditions from large-scale structure surveys
+	Monthly Notices of the Royal Astronomical Society 432, 894-913 (2013)
+	arXiv:1203.3639 [astro-ph.CO]
+
+and:
+
+	Jasche, J. and Leclercq, F. and Wandelt, B. D. (2015)
+	Past and present cosmic structure in the SDSS DR7 main sample
+	Journal of Cosmology and Astroparticle Physics 01, 036 (2015)
+	arXiv:1409.6308 [astro-ph.CO]
+
+as well as the 'ORIGAMI' paper:
+
+	Falck, B. L. and Neyrinck, M. C. and Szalay, A. S. (2012)
+	ORIGAMI: Delineating Halos Using Phase-space Folds
+	The Astrophysical Journal 754, 126 (2012)
+	arXiv:1201.2353 [astro-ph.CO]
+
+We suggest, for example, the following sentence:
+'This work uses the cosmic web maps obtained by Leclercq et al. (2016a), based on the ORIGAMI definition (Falck et al. 2012)
+and on the analysis of the SDSS (Jasche et al. 2015) by the BORG algorithm (Jasche & Wandelt 2013).'
