@@ -19,13 +19,13 @@ This package consists of four files:
 	This file contains the information you are currently reading.
 
 **borg_sdss_origami.npz**:
-This file contains the maps obtained by [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), who performed a Bayesian analysis of the cosmic web in the SDSS volume. The results are four probabilistic maps of the voids, sheets, filaments, and clusters. Structures are defined using the ORIGAMI algorithm ([Falck et al. 2012](https://arxiv.org/abs/1201.2353)). Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. For further details on the data and employed methods please consult the manuscript [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), of which the reference is provided below.
+	This file contains the maps obtained by [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), who performed a Bayesian analysis of the cosmic web in the SDSS volume. The results are four probabilistic maps of the voids, sheets, filaments, and clusters. Structures are defined using the ORIGAMI algorithm ([Falck et al. 2012](https://arxiv.org/abs/1201.2353)). Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. For further details on the data and employed methods please consult the manuscript [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), of which the reference is provided below.
 
 **[borg_sdss_origami.py](borg_sdss_origami.py)**:
-This file is an example script to be executed with the Python programming language. The script exemplifies loading and plotting the data contained in borg_sdss_origami.npz. This script can be used to reproduce figure 3 (bottom row) in [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093).
+	This file is an example script to be executed with the Python programming language. The script exemplifies loading and plotting the data contained in borg_sdss_origami.npz. This script can be used to reproduce figure 3 (bottom row) in [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093).
 
 **[borg_sdss_origami.ipynb](borg_sdss_origami.ipynb)**:
-This file is an example IPython notebook to load and plot the data in borg_sdss_origami.npz.
+	This file is an example IPython notebook to load and plot the data in borg_sdss_origami.npz.
 
 ----------------------
 **Usage**
