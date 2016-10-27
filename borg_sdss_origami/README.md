@@ -1,38 +1,31 @@
 ==============================================
-BORG SDSS data products
+**BORG SDSS data products** / **borg_sdss_origami package**
 ==============================================
 
-:Authors: Florent Leclercq, Jens Jasche, Guilhem Lavaux, Benjamin Wandelt
-:Last update: 16-06-2016
+* *Authors*: Florent Leclercq, Jens Jasche, Guilhem Lavaux, Benjamin Wandelt
+* *Last update*: 27-10-2016
 
 ----------------------
-File Contents
+**File Contents**
 ----------------------
 
-Including this file you should have received a copy of in total three files:
+This package consists of four files:
+* README.md
+* borg_sdss_origami.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_origami.tar.gz)
+* [borg_sdss_origami.py](borg_sdss_origami.py)
+* [borg_sdss_origami.ipynb](borg_sdss_origami.ipynb)
 
-		README.rst
+**README.md**:
+	This file contains the information you are currently reading.
 
-		borg_sdss_origami.npz
+**borg_sdss_origami.npz**:
+This file contains the maps obtained by [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), who performed a Bayesian analysis of the cosmic web in the SDSS volume. The results are four probabilistic maps of the voids, sheets, filaments, and clusters. Structures are defined using the ORIGAMI algorithm ([Falck et al. 2012](https://arxiv.org/abs/1201.2353)). Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. For further details on the data and employed methods please consult the manuscript [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), of which the reference is provided below.
 
-		example.py
+**[borg_sdss_origami.py](borg_sdss_origami.py)**:
+This file is an example script to be executed with the Python programming language. The script exemplifies loading and plotting the data contained in borg_sdss_origami.npz. This script can be used to reproduce figure 3 (bottom row) in [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093).
 
-
-README.rst		:This file contains the information you are currently reading.
-
-borg_sdss_origami.npz	:This file contains the maps obtained by Leclercq et al. (2016a), who performed
-			 a Bayesian analysis of the cosmic web in the SDSS volume. The results are four
-			 probabilistic maps of the voids, sheets, filaments, and clusters.
-			 Structures are defined using the ORIGAMI algorithm (Falck et al. 2012)
-			 Data is provided in terms of a standard 3D numpy array and can easily be accessed and
-			 processed with the open source Python programming language. For further details on
-			 the data and employed methods please consult the manuscript Leclercq et al. (2016a),
-			 of which the reference is provided below.
-
-example.py		:This file is an example script to be executed with the Python programming language.
-			 The script exemplifies loading and plotting the data contained in borg_sdss_origami.npz.
-			 This script can be used to reproduce figure 3 (bottom row) in Leclercq et al. (2016a).
-
+**[borg_sdss_origami.ipynb](borg_sdss_origami.ipynb)**:
+	This file is an example IPython notebook to load and plot the data in borg_sdss_origami.npz.
 ----------------------
 Usage
 ----------------------
