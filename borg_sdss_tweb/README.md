@@ -90,8 +90,7 @@ A showcase of loading and plotting this data is provided by the files [borg_sdss
 **Credits**
 ----------------------
 
-If you are using this data in your publications please cite the
-following publication:
+If you are using this data in your publications please cite the following publication:
 
 > Leclercq, F. and Jasche, J. and Wandelt, B. (2015a)<br />
 > *Bayesian analysis of the dynamic cosmic web in the SDSS galaxy survey*<br />
