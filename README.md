@@ -14,7 +14,7 @@ For the large files that are not included in this repository, see [http://icg.po
 **Contents**
 ----------------------
 
-The BORG SDSS data release is organised in the form of several "packages", each of them related to one of our publications. These contain three-dimensional maps of the Universe, object catalogues, example python scripts and IPython Noteboods that permit to reproduce the results of our papers. Each package consists of one tar.gz archive available from [http://icg.port.ac.uk/~leclercq/data.php](http://icg.port.ac.uk/~leclercq/data.php) and several files available from the current GitHub repository. Please refer to the "README.md" files in each of the packages for more information on the data and scripts, as well as a list of the papers to cite.
+The BORG SDSS data release is organised in the form of several "packages", each of them related to one of our publications. These contain three-dimensional maps of the Universe, object catalogues, example python scripts and IPython notebooks that permit to reproduce the results of our papers. Each package consists of one tar.gz archive available from [http://icg.port.ac.uk/~leclercq/data.php](http://icg.port.ac.uk/~leclercq/data.php) and several files available from the current GitHub repository. Please refer to the "README.md" files in each of the packages for more information on the data and scripts, as well as a list of the papers to cite.
 
 Available packages:
 * [borg_sdss_density](borg_sdss_density)
