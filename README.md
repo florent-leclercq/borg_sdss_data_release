@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products**
 ==============================================
 
@@ -8,13 +7,13 @@
 
 This is the repository for the public releases of data products that follow a chrono-cosmographic analysis of the three-dimensional large-scale structure of the nearby Universe, as traced by [SDSS main sample galaxies](http://classic.sdss.org/dr7/).
 
-For the large files that are not included in this repository, see [http://icg.port.ac.uk/~leclercq/data.php](http://icg.port.ac.uk/~leclercq/data.php).
+For the large files that are not included in this repository, see [http://www.florent-leclercq.eu/data.php](http://www.florent-leclercq.eu/data.php).
 
 ----------------------
 **Contents**
 ----------------------
 
-The BORG SDSS data release is organised in the form of several "packages", each of them related to one of our publications. These contain three-dimensional maps of the Universe, object catalogues, example python scripts and IPython notebooks that permit to reproduce the results of our papers. Each package consists of one tar.gz archive available from [http://icg.port.ac.uk/~leclercq/data.php](http://icg.port.ac.uk/~leclercq/data.php) and several files available from the current GitHub repository. Please refer to the "README.md" files in each of the packages for more information on the data and scripts, as well as a list of the papers to cite.
+The BORG SDSS data release is organised in the form of several "packages", each of them related to one of our publications. These contain three-dimensional maps of the Universe, object catalogues, example python scripts and IPython notebooks that permit to reproduce the results of our papers. Each package consists of one tar.gz archive available from [http://www.florent-leclercq.eu/data.php](http://www.florent-leclercq.eu/data.php) and several files available from the current GitHub repository. Please refer to the "README.md" files in each of the packages for more information on the data and scripts, as well as a list of the papers to cite.
 
 Available packages:
 * [borg_sdss_density](borg_sdss_density)
