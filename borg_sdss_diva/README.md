@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products** / **borg_sdss_diva package**
 ==============================================
 
@@ -11,7 +10,7 @@
 
 This package consists of four files:
 * README.md
-* borg_sdss_diva.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_diva.tar.gz)
+* borg_sdss_diva.npz, archived in a .tar.gz file available [here](http://www.florent-leclercq.eu/data/borg_sdss_diva.tar.gz)
 * [borg_sdss_diva.py](borg_sdss_diva.py)
 * [borg_sdss_diva.ipynb](borg_sdss_diva.ipynb)
 
