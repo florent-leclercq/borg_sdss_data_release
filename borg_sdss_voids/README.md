@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products** / **borg_sdss_voids package**
 ==============================================
 
@@ -19,7 +18,7 @@ This package consists of 73 files:
 * masked3D_untrimmed_sky_positions_central_constrained_*_ss1.0_z0.00_d00.out (11 files)
 * masked3D_untrimmed_sky_positions_central_unconstrained_*_ss1.0_z0.00_d00.out (11 files)
 
-All these files are archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_voids.tar.gz). Only README.md is available in the GitHub repository.
+All these files are archived in a .tar.gz file available [here](http://www.florent-leclercq.eu/data/borg_sdss_voids.tar.gz). Only README.md is available in the GitHub repository.
 
 **README.md**:
 	This file contains the information you are currently reading.
