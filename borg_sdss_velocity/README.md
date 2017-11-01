@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products** / **borg_sdss_velocity package**
 ==============================================
 
@@ -11,7 +10,7 @@
 
 This package consists of four files:
 * README.md
-* borg_sdss_velocity.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_velocity.tar.gz)
+* borg_sdss_velocity.npz, archived in a .tar.gz file available [here](http://www.florent-leclercq.eu/data/borg_sdss_velocity.tar.gz)
 * [borg_sdss_velocity.py](borg_sdss_velocity.py)
 * [borg_sdss_velocity.ipynb](borg_sdss_velocity.ipynb)
 
@@ -19,7 +18,7 @@ This package consists of four files:
 	This file contains the information you are currently reading.
 
 **borg_sdss_velocity.npz**:
-	This file contains some of the results obtained by [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093): the posterior mean and variance for the velocity field in the SDSS volume, in terms of a 3D volumetric data cube. Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. For further details on the data and employed inference methodologies please consult the manuscript [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), of which the reference is provided below. This file is not available in the GitHub repository, it should be downloaded from the author's website (currently [this link](http://icg.port.ac.uk/~leclercq/data/borg_sdss_velocity.tar.gz)).
+	This file contains some of the results obtained by [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093): the posterior mean and variance for the velocity field in the SDSS volume, in terms of a 3D volumetric data cube. Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. For further details on the data and employed inference methodologies please consult the manuscript [Leclercq et al. (2016a)](https://arxiv.org/abs/1601.00093), of which the reference is provided below. This file is not available in the GitHub repository, it should be downloaded from the author's website (currently [this link](http://www.florent-leclercq.eu/data/borg_sdss_velocity.tar.gz)).
 
 **[borg_sdss_velocity.py](borg_sdss_velocity.py)**:
 	This file is an example script to be executed with the Python programming language. The script exemplifies loading and plotting the data contained in borg_sdss_velocity.npz.
