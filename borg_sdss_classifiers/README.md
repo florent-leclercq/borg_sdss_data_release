@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products** / **borg_sdss_classifiers package**
 ==============================================
 
@@ -19,7 +18,7 @@ This package consists of eight files:
 * [information_gain_galaxies.py](information_gain_galaxies.py)
 * [borg_sdss_classifiers.ipynb](borg_sdss_classifiers.ipynb)
 
-The files borg_sdss_js_DE.npz and galaxy_catalog.dat are archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_classifiers.tar.gz).
+The files borg_sdss_js_DE.npz and galaxy_catalog.dat are archived in a .tar.gz file available [here](http://www.florent-leclercq.eu/data/borg_sdss_classifiers.tar.gz).
 
 **README.md**:
 	This file contains the information you are currently reading.
