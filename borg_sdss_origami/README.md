@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products** / **borg_sdss_origami package**
 ==============================================
 
@@ -11,7 +10,7 @@
 
 This package consists of four files:
 * README.md
-* borg_sdss_origami.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_origami.tar.gz)
+* borg_sdss_origami.npz, archived in a .tar.gz file available [here](http://www.florent-leclercq.eu/data/borg_sdss_origami.tar.gz)
 * [borg_sdss_origami.py](borg_sdss_origami.py)
 * [borg_sdss_origami.ipynb](borg_sdss_origami.ipynb)
 
