@@ -1,4 +1,3 @@
-==============================================
 **BORG SDSS data products** / **borg_sdss_density package**
 ==============================================
 
@@ -11,7 +10,7 @@
 
 This package consists of four files:
 * README.md
-* borg_sdss_density.npz, archived in a .tar.gz file available [here](http://icg.port.ac.uk/~leclercq/data/borg_sdss_density.tar.gz)
+* borg_sdss_density.npz, archived in a .tar.gz file available [here](http://www.florent-leclercq.eu/data/borg_sdss_density.tar.gz)
 * [borg_sdss_density.py](borg_sdss_density.py)
 * [borg_sdss_density.ipynb](borg_sdss_density.ipynb)
 
@@ -19,7 +18,7 @@ This package consists of four files:
 	This file contains the information you are currently reading.
 
 **borg_sdss_density.npz**:
-	This file contains some of the results obtained by [Jasche et al. (2015)](https://arxiv.org/abs/1409.6308), who performed a fully Bayesian analysis of the 3D large scale structure as traced by SDSS main sample galaxies. In particular it contains the ensemble mean density contrast for the observed present day large scale structure in terms of a 3D volumetric data cube. Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. The file further provides an additional 3D numpy array with corresponding uncertainty quantification in terms of voxel-wise standard deviations. For further details on the data and employed inference methodologies please consult the manuscript [Jasche et al. (2015)](https://arxiv.org/abs/1409.6308), of which the reference is provided below. This file is not available in the GitHub repository, it should be downloaded from the author's website (currently [this link](http://icg.port.ac.uk/~leclercq/data/borg_sdss_density.tar.gz)).
+	This file contains some of the results obtained by [Jasche et al. (2015)](https://arxiv.org/abs/1409.6308), who performed a fully Bayesian analysis of the 3D large scale structure as traced by SDSS main sample galaxies. In particular it contains the ensemble mean density contrast for the observed present day large scale structure in terms of a 3D volumetric data cube. Data are provided in terms of a standard 3D numpy array and can easily be accessed and processed with the open source Python programming language. The file further provides an additional 3D numpy array with corresponding uncertainty quantification in terms of voxel-wise standard deviations. For further details on the data and employed inference methodologies please consult the manuscript [Jasche et al. (2015)](https://arxiv.org/abs/1409.6308), of which the reference is provided below. This file is not available in the GitHub repository, it should be downloaded from the author's website (currently [this link](http://www.florent-leclercq.eu/data/borg_sdss_density.tar.gz)).
 	
 **[borg_sdss_density.py](borg_sdss_density.py)**:
 	This file is an example script to be executed with the Python programming language. The script exemplifies loading and plotting the data contained in borg_sdss_density.npz.
