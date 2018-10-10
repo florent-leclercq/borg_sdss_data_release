@@ -9,4 +9,4 @@
 * Nico Hamaus, hamaus@usm.lmu.de
 * Guilhem Lavaux, guilhem.lavaux@iap.fr
 * Will Percival, will.percival@uwaterloo.ca
-* P.M Sutter, pmsutter@gmail.com
+* P.M. Sutter, pmsutter@gmail.com
