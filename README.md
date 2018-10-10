@@ -12,7 +12,7 @@ Please also visit [http://www.florent-leclercq.eu/data.php?page=1](http://www.fl
 Contents
 ------------
 
-The BORG SDSS data release is organised in the form of several "packages" (see below); each of them is related to some of our publications. These contain three-dimensional maps of the Universe, object catalogues, and IPython notebooks that permit to reproduce the results of our papers. Each package consists of one tar.gz archive (also available from [http://www.florent-leclercq.eu/data.php?page=1](http://www.florent-leclercq.eu/data.php?page=1)) and an IPython notebook. Please refer to the notebook in each of the packages for more information on the data and their use, as well as a list of the papers to cite.
+The BORG SDSS data release is organised in the form of several "packages" (see below); each of them is related to some of our publications. These contain three-dimensional maps of the Universe, object catalogues, and IPython notebooks that permit to reproduce the results of our papers. Each package consists of a tar.gz archive (also available from [http://www.florent-leclercq.eu/data.php?page=1](http://www.florent-leclercq.eu/data.php?page=1)) and an IPython notebook. Please refer to the notebook in each of the packages for more information on the data and their use, as well as a list of the papers to cite.
 
 Available packages:
 * [borg_sdss_density](borg_sdss_density)
