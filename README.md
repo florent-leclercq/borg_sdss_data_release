@@ -1,8 +1,13 @@
 The BORG SDSS data release
 ==============================================
 
+[![GitHub tag](https://img.shields.io/github/tag/florent-leclercq/borg_sdss_data_release.svg?maxAge=3600&label=GitHub)](https://github.com/florent-leclercq/borg_sdss_data_release)
+[![DOI](https://zenodo.org/badge/72010781.svg)](https://zenodo.org/badge/latestdoi/72010781)
+
+<img src="http://florent-leclercq.eu/images/data/sdss_wedge_final.png" width="45%" align="right"></img>
+
 * *Authors*: Florent Leclercq, Jens Jasche, Benjamin Wandelt
-* *Additional contributions from*: Nico Hamaus, Guilhem Lavaux, Will Percival, P.M Sutter
+* *Additional contributions from*: Nico Hamaus, Guilhem Lavaux, Will Percival, P.M. Sutter
 * *Last update*: 09/10/2018
 
 This is the repository for the public releases of data products that follow a **chrono-cosmographic analysis of the three-dimensional large-scale structure of the nearby Universe**, as traced by [SDSS main sample galaxies](http://classic.sdss.org/dr7/).
@@ -26,7 +31,7 @@ Available packages:
 Using and Contributing
 ------------
 
-You can use all these products freely, provided that in your publications, you cite the papers mentioned in the respective notebooks. They are provided under the [GNU General Public License](LICENSE).
+You can use all these products freely, provided that in your publications, you cite the papers mentioned in the respective notebooks. They are provided under the [GNU General Public License](LICENSE). You can also cite the BORG SDSS data products using the doi [10.5281/zenodo.1455729](http://dx.doi.org/10.5281/zenodo.1455729), and specific releases  using their individual doi ([10.5281/zenodo.1455730](http://dx.doi.org/10.5281/zenodo.1455730) for v1.0).
 
 Please do not hesitate to contribute by forking this repository and creating pull requests to the public distribution.
 
