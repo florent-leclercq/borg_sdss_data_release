@@ -1,8 +1,11 @@
 The BORG SDSS data release
 ==============================================
 
-[![GitHub tag](https://img.shields.io/github/tag/florent-leclercq/borg_sdss_data_release.svg?maxAge=3600&label=GitHub)](https://github.com/florent-leclercq/borg_sdss_data_release)
+[![GitHub version](https://img.shields.io/github/tag/florent-leclercq/borg_sdss_data_release.svg?maxAge=3600&label=version)](https://github.com/florent-leclercq/borg_sdss_data_release)
+[![GitHub commits](https://img.shields.io/github/commits-since/florent-leclercq/borg_sdss_data_release/v1.0.svg)](https://github.com/florent-leclercq/borg_sdss_data_release/commits/)
 [![DOI](https://zenodo.org/badge/72010781.svg)](https://zenodo.org/badge/latestdoi/72010781)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![Website florent-leclercq.eu](https://img.shields.io/website-up-down-green-red/http/florent-leclercq.eu.svg)](http://florent-leclercq.eu/data.php?page=1)
 
 <img src="http://florent-leclercq.eu/images/data/sdss_wedge_final.png" width="45%" align="right"></img>
 
